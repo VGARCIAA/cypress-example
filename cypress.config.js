@@ -10,5 +10,6 @@ module.exports = defineConfig({
   screenshotOnRunFailure: true,
   env: {
     url: 'https://www.saucedemo.com/v1/',
-  }
+  },
+  projectId: "dfoc2t"
 });
