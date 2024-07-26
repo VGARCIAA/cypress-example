@@ -1,0 +1,57 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Login to a website",
+    "line": 1,
+    "id": "login-to-a-website",
+    "tags": [],
+    "uri": "saucelabs.feature",
+    "elements": [
+      {
+        "id": "login-to-a-website;successful-login",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Successful login",
+        "tags": [
+          {
+            "name": "@HappyPath",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I open the website \"urlSauceDemo\"",
+            "result": {
+              "status": "passed",
+              "duration": 393000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I attempt to login with valid username \"standard_user\" and password \"secret_sauce\"",
+            "result": {
+              "status": "passed",
+              "duration": 1819000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I should be logged in",
+            "result": {
+              "status": "passed",
+              "duration": 12000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,8 @@
+{
+    "modal_inicio":".modalTwoSteps_popup__vubqI",
+    "modal_inicio_cerrar":".modalTwoSteps_close_button__11Uuk",
+    "btn_reservas": ".header_nav_container__Z2eZd > ul > :nth-child(4) > a",
+    "header_reservas": "h2",
+    "select_reservas": ".reservas_select__YsLUn",
+    "ops_reservas": ".reservas_links__yrFUi > ul"
+}

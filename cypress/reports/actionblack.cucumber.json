@@ -1,0 +1,62 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Reserva de clases",
+    "line": 1,
+    "id": "reserva-de-clases",
+    "tags": [],
+    "uri": "actionblack.feature",
+    "elements": [
+      {
+        "id": "reserva-de-clases;scenario-outline-name:-reserva-exitosa-de-clases",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Scenario Outline name: Reserva exitosa de clases",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Un usuario visita la \"urlActionBlack\" de reservas",
+            "result": {
+              "status": "passed",
+              "duration": 1315000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "El usuario selecciona una \"Sabaneta\" y \"JAB\"",
+            "result": {
+              "status": "passed",
+              "duration": 252000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "Se logea con \"ejportillap@gmail.com\" y \"Canela.1\" validos",
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "Puede confirmar la reserva",
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
